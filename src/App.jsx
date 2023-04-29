@@ -14,9 +14,9 @@ function App() {
   return (
     <>
       <h1>Enter the Number</h1>
-      <input type="text" className='number-input' ref={inputRef} />
+      <input type="number" className='number-input' pattern="[0-9]*" ref={inputRef} />
       <br />
-      <button onClick={()=>clicked()}>Chat!</button>
+      <button className='button' onClick={()=>clicked()}>Chat!</button>
     </>
   )
 }
