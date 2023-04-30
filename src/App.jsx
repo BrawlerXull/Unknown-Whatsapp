@@ -13,6 +13,7 @@ function App() {
     } else {
       window.alert("Please enter a valid number");
     }
+    inputRef.current.value = "";
   }
 
   return (
